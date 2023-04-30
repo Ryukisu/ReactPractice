@@ -1,5 +1,6 @@
 import './App.css'
 import AddStudentForm from './components/AddStudentForm'
+import Students from './components/Students'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <div className='container'>
         <AddStudentForm />
+        <Students />
       </div>
     </>
   )
