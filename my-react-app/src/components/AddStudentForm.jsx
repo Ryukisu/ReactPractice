@@ -2,9 +2,9 @@ function AddStudentForm() {
     return (
         <form>
             <label>Add student</label>
-            <input></input>
-            <input></input>
-            <input></input>
+            <input placeholder="Name"></input>
+            <input placeholder="Surname"></input>
+            <input placeholder="Grades"></input>
             <button>Add</button>
         </form>
     )
