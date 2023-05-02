@@ -1,4 +1,4 @@
-function AddStudentForm() {
+function AddStudentFormA() {
     return (
         <form>
             <label>Add student</label>
