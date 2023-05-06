@@ -18,8 +18,6 @@ function AddStudentForm({onAddStudent}) {
 
     const handleGradesChange = (event) => {
         setGrades(event.target.value);
-        // const newGrades = event.target.value.split(',').map(grade => Number(grade.trim()));
-        // setGrades(newGrades);
     };
 
     const handleSubmit = (event) => {

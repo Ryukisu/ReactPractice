@@ -1,10 +1,4 @@
 function StudentsList({students}) {
-
-    // const calculateAverage = (grades) => {
-    //     const sum = grades.reduce((accumulator, currentValue) => accumulator + currentValue);
-    //     return (sum / grades.length).toFixed(2);
-    // };
-
     return (
     <div className="studentsData">
     <label>Students</label>
